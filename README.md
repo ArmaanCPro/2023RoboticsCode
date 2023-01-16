@@ -1,2 +1,2 @@
-# 2023RoboticsCode
-Code for our modified bot based on the Hero Bot, Disco.
+# 2023 Vex Robotics Code
+Code composited by Armaan Chahal
