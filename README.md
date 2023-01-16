@@ -1,2 +1,2 @@
-# 2023 Vex Robotics Code
+# 2023 Vex Robotics Program
 Code composited by Armaan Chahal
