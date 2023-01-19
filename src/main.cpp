@@ -80,13 +80,13 @@ void usercontrol(void)
     //Go forward/backward if left joystick is pushed forward/backward
     if (Controller1.Axis3.position(pct) != 0)
     {
-      drive.Spin(Controller1.Axis3.position(pct), percent);
+      drive.Spin(Controller1.Axis3.position(pct) - 20, percent);
     }
 
     //Turn left/right if right joystick is pushed left/right
     else if(Controller1.Axis1.position(pct) != 0)
     {
-      drive.Turn(Controller1.Axis1.position(pct), percent, false);
+      drive.Turn(Controller1.Axis1.position(pct) - 20, percent, false);
     }
 
     //Stop each of the motors
